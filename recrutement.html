@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Recrutement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="date"></div>
+<div id="page">
+  <div id="banniere"></div>
+  <div id="image-banniere"></div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="presentation.html">Présentation</a></li>
+      <li><a href="recrutement.html">Recrutement</a></li>
+      <li><a href="calendrier.html">Calendrier</a></li>
+      <li><a href="inscription.html">Inscription</a></li>
+    </ul>
+  </div>
+  <p class='defil_parent'>
+    <span class="defil"> Chers étudiants,on a le plaisir de vous informer que la campagne de réinscription et d'inscription 2020-2021 de l’école  « SILA », démarre le Lundi 6 septembre 2020 à 8heures.</span>
+  </p>   
+  <div id="contenu">
+    <div >
+      <h2>Rejoignez l'&eacute;quipe SILA</h2>
+      <h3>Vous êtes dynamique?</h3>
+      <p>Vous aimez enseigner la science?</p>
+      <p>Alors Bienvenue!</p>
+      <p>Envoyez nous votre CV et une lettre de motivation à cette adresse <a href="sila@yahoo.fr">sila@yahoo.fr</a></p>
+      <p>Vous pouvez aussi remplir ce formulaire</p>
+      <div id="div1"> 
+        <form>
+            <input type="radio" name="sexe" value="M" id="M" >
+            <label for="M"> M</label>
+            <input type="radio" name="sexe" value="Mme" id="Mme" checked="checked" >
+            <label for="Mme"> Mme</label>
+            <input type="radio" name="sexe" value="Mlle" id="Mlle">
+            <label for="Mlle"> Mlle</label>
+        </form> 
+       <form method="post" action="index.html">
+            <p><label for="Nom"> Nom: </label>
+            <input type="text" name="Nom" id="Nom"  maxlength="20" required size="12">
+            <label for="Prenom"> Prenom: </label>
+            <input type="text" name="Prenom" id="Prenom"  maxlength="6" required size="12"></p>
+            <p><label for="N_et_rue"> N et rue: </label>
+            <input class='coul' type="text" name="Netrue" id="N_et_rue" required  maxlength="20" size="64"></p>
+            <p><label for="Code_postale"> Code postale: </label>
+                <input class='coul' type="text" name="Code_postale" id="Code_postale" required   maxlength="6" size="2">
+                <label  for="Ville"> Ville: </label>
+                <input id='Ville' type="text" name="ville"  maxlength="20" size="35" required>
+                <SELECT class='select' name="nom" size="1">
+                   <OPTION>Autre</OPTION>
+                   <OPTION>Dakar</OPTION>
+                   <OPTION>Banjul</OPTION>
+                   <OPTION>Madrid</OPTION>
+                   <OPTION>Pekin</OPTION>
+                   <OPTION>Bruxelle</OPTION>
+                </SELECT>
+            </p>
+            <p><label for="Votremessage"> Votre message </label>
+                <textarea   name="Votremessage" id="Votremessage"  maxlength="1200" required ></textarea></p>
+                <p><label for="email"> Adresse E-mail: </label>
+                <input type="email" name="email" id="email"   maxlength="20" size="35" required></p>
+       </form> 
+       <form>
+          <input type="submit" value="Envoyer" onclick="Valider()"/>
+          <input type="reset" value="Annuler" />
+       </form>
+      </div>
+      <h2>&nbsp;</h2>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div id="suipre">
+      <ul>
+       <li><form>
+          <input class='boutonn' type = "button" value = "Retour!"  onclick = "history.back()">
+       </form></li>
+       <li>
+       <form  action="calendrier.html">
+        <input class='bouton' type = "submit" value = "suivant" id="suivant">
+     </form></li>
+      </ul> 
+     </div>
+   </div>
+  
+    <div id='footer'>
+      <a href="cgu.html">conditions generales d'utillisateur </a>
+      <div id='reseau'>
+        <p>Suivez nous </p>
+            <p><a href="https://www.instagram.com/sila41000/"><img class='insta' src="insta.png" alt="insta"></a> </p>
+            <p><a href="https://www.linkedin.com/feed/"><img class='lk' src="lk.png" alt="linkdl"></a></p>
+            <p> <a href="https://www.facebook.com/Sila-101997298451863"><img class='fb' src="fb.png" alt="fb"></a></p>
+            <p><a href="https://twitter.com/home"><img class='tw' src="tw.jpeg" alt="twitter"></a></p>
+      </div>
+           <p class='ct'>Ecole SILA</p>
+          <p class="ct"> 1 place Rene coty</p>
+          <p class="ct"> Bp 4100 Blois</p>
+          <p class="ct"> Tel: 330753913400</p>
+     <p class='rep'>© SILA - Toute reproduction interdite</p>   
+</div> 
+</div>      
+<script src="script.js"></script>    
+</body>
+</html>

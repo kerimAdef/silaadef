@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+      PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="fr" lang="fr">
+<head>
+  <meta name="author" content="Abdelkerim"/>
+  <title>Accueil</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="date"></div>
+ <div id="page">
+  <div id='haut'>
+   <div id="banniere"></div>
+   <div id="image-banniere"></div>
+   <div id="menu">
+     <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="presentation.html">Présentation</a></li>
+      <li><a href="recrutement.html">Recrutement</a></li>
+      <li><a href="calendrier.html">Calendrier</a></li>
+      <li><a href="inscription.html">Inscription</a></li>
+     </ul>
+  </div>
+ </div> 
+  <p class='defil_parent'>
+       <span class="defil"> Chers étudiants,on a le plaisir de vous informer que la campagne de réinscription et d'inscription 2020-2021 de l’école  « SILA », démarre le Lundi 6 septembre 2020 à 8heures.</span>
+  </p>   
+  <div id="contenu">
+    
+      <h2>Horaires</h2>
+      <p>Licence 1: 8h15-18h<br/>
+        <br/>
+        Licence 2 et 3: 8h-13h <br/>
+        <br/>
+        Ateliers: Lundi, Mardi et Jeudi et Vendredi<br/>
+        <br/>
+      </p>
+      <h2>NOS ACTIVITÉS</h2>
+      <p>NOS MEILLEURS SERVICES POUR LES ETUDIANTS</p>
+
+      <table>
+        <tr>
+          <td id="anglais"><img id="im_ang" src="anglais.jpeg" alt="anglais" />
+            <h2>Anglais</h2>On offre a tous les étudiants la chance  de parler une seconde langue. qui est un atout non néglgeable dans leurs futur domaines.</td>
+          <td id="inf"><img id="im_inf" src="informatique.jpeg" alt="informatique" />
+            <h2>Informatique</h2>
+          <p>D'ici 2022, 90 % des emplois nécessiteront des compétences numériques...l'apprentissage en qualité de l'informatique vous est alors proposé.</p></td>
+          <td id="commu" ><img src="communication.jpeg" id="img_commu" alt="communication"/>
+            <h2>Technique de Communication</h2>
+          <p> Savoir communiquer est une qualité que tout cadre devrait maîtriser. En effet, le recours à ce talent est très fréquent pour celui qui doit assumer un minimum de responsabilités.</p></td>
+        </tr>
+        <tr>
+          <td id="math"><p><img src="math.jpeg" id="img_math" alt="math" /></p>
+            <h2>Les mathematiques</h2>
+          <p> Une question souvent posée par les étudiants: a quoi sert les maths. Les mathématiques telles qu’on les enseigne à l’école s’appuient essentiellement sur des compétences – comme la capacité à déterminer les angles de formes géométriques ou à utiliser des formules pour calculer un volume ou une capacité – plutôt que sur l’étude de ce que sont véritablement les maths.</p></td>
+          <td id="phys" ><img id="img_phys" src="physique.jpeg" alt="physique" />
+            <h2>Physique</h2>
+          <p>Dans l’optique d’initier les étudiants à la science, nous proposons la physique.La physique est la science qui tente de comprendre, de modéliser, voire d'expliquer les phénomènes naturels de l'univers. Elle correspond à l'étude du monde qui nous entoure sous toutes ses formes, des lois de sa variation et de son évolution..<br/>
+          </p></td>
+          <td id="app" ><img src="apprendre.jpeg" id="img_app" alt="apprendre" />
+            <h2>Apprendre a apprendre</h2>
+          <p>Pour accompogner les étudiants tout au long de leur cycle d'apprentissage nous proposons le presup c'est a dire qu'on donne aux étudiants des méthodes efficaces d'apprentissage qui valeur permettre de reussir. <br/>
+          </p></td>
+        </tr>
+      </table>
+      <div id="quizz">
+        <h2>Petite quizz</h2>
+        <dl>
+          <dt>Quel est le premier homme à avoir marcher sur la lune</dt>
+          <dd>
+            <label>Gutenberg</label><input type="radio" name="homme" id="Gut"/><br/>
+            <label>Neil Armstrong</label><input type="radio" name="homme" id="Neil"/><span id="Nam"></span><br/>
+            <label>Michel Perez</label><input type="radio" name="homme" id="Pe"/><br/>
+            <label>Louis Armstrong</label><input type="radio" name="homme" id="Lo"/><br/>
+          </dd>
+          <dt>Qui a crée le Telephone</dt>
+          <dd>
+            <label>Alexander Graham Bell</label><input type="radio" name="tel" id="Alex"/><span id="al"></span><br/>
+            <label>Nelson Mandela</label><input type="radio" name="tel" id="Ma"/><br/>
+            <label>Bill Gates</label><input type="radio" name="tel" id="Bi"/><br/>
+            <label>Becaye mbaye</label><input type="radio" name="tel" id="Be"/><br/>
+          </dd>
+          <dt>Qui est le pere de l'informatique</dt>
+          <dd>
+            <label>Bohr</label><input type="radio" name="inf" id="Bo"/> <br/>
+            <label>Stephane bell</label><input type="radio" name="inf" id="St"/><br/>
+            <label>Steve Jobs</label><input type="radio" name="inf" id="Stev"/><br/>
+            <label>Alan Turing</label><input type="radio" name="inf" id="Allain"/><span id="allai"></span>
+          </dd>
+        </dl>
+        <p id="result"></p>
+        <input type="button" onclick="Resultat()" id="resultat" value="resultat"/>
+        <input type="button" onclick="Renitia()" value="Renitialiser" id="Renitia"/>
+      </div>  
+    </div>
+    
+    <div id='footer'>
+      <a href="cgu.html">conditions generales d'utillisateur </a>
+      <div id='reseau'>
+        <p>Suivez nous </p>
+            <p><a href="https://www.instagram.com/sila41000/"><img class='insta' src="insta.png" alt="insta"/></a> </p>
+            <p><a href="https://www.linkedin.com/feed/"><img class='lk' src="lk.png" alt="linkdl"/></a></p>
+            <p> <a href="https://www.facebook.com/Sila-101997298451863"><img class='fb' src="fb.png" alt="fb"/></a></p>
+            <p><a href="https://twitter.com/home"><img class='tw' src="tw.jpeg" alt="twitter"/></a></p>
+      </div>
+          <p class='ct'>Ecole Sila</p>
+          <p class="ct"> 1 Place Rene coty</p>
+          <p class="ct"> BP 41000 Blois</p>
+          <p class="ct"> Tel: 330753913400</p>
+          <p class='rep'>© Sila - Toute reproduction interdite</p>  
+    </div>
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
